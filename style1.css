@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Gabarito', sans-serif;
+}
+.section-one{
+    padding: 10px;
+}
+.section-one__title{
+    background-color: rgb(255, 192, 242);
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-two{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 20px;
+}
+.section-two__title{
+    color:white;
+    text-align: center;
+    padding:15px;
+}
+.section-two__description{
+
+    border: white solid 2px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+   
+}
+.section-two__description li{
+    list-style-type: none;
+}
